@@ -1,0 +1,8 @@
+# 后端依赖（邱添负责维护，随开发逐步补充）
+fastapi
+uvicorn[standard]
+pydantic
+# 数据库
+# sqlalchemy
+# 调用 Ollama 的客户端
+# ollama 或 requests
