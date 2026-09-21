@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== 模型权重 / 大文件（AI 项目重点） =====
+# 本地大模型和训练产物绝对不要提交
+*.gguf
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+ai/models/*
+ai/data/*
+!ai/models/.gitkeep
+!ai/data/.gitkeep
+
+# ===== 敏感信息 =====
+.env
+.env.*
+*.key
+*.pem
+secrets/
+config.local.*
+
+# ===== Node / 前端 =====
+node_modules/
+dist/
+build/
+.pnpm-store/
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# ===== 测试 / 缓存 =====
+.pytest_cache/
+.mypy_cache/
